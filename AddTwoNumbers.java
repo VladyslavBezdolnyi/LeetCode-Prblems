@@ -33,7 +33,7 @@ public class AddTwoNumbers {
             if (isOverBounds) {
                 var overBoundaryNumber = new ListNode(ALLOCATION_NUMBER);
                 resultNumberNode.setNext(overBoundaryNumber);
-                return overBoundaryNumber;
+                return resultNumberNode;
             }
             return resultNumberNode;
         }
